@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/day_planner_dashboard/',
+  base: '/day-planner-dashboard/',
   plugins: [react()],
   esbuild: {
     loader: 'jsx',
